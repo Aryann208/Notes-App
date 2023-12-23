@@ -3,7 +3,31 @@
 * {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
+  margin: 0%;
+  padding:0;
 }
+
+/* Define the scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F9B35F; 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F9B35F; 
+}
+
 
 .header {
   height: 12%;

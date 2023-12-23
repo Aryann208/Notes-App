@@ -120,23 +120,24 @@ const Note = ({ note, onEdit, onDelete }) => {
           <div
             style={{
               maxWidth: '100%',
-              maxHeight: '20%',
+              maxHeight: '40%',
               marginRight: '20px',
               flex: '1',
             }}
           >
-            <h4 style={{ color: '#F9B35F' }}>{note.title}</h4>
+            <h3 style={{ color: '#F9B35F' }}>{note.title}</h3>
             <p
               style={{
                 wordWrap: 'break-word',
                 overflowY: 'auto',
-                maxHeight: '65%',
-                padding: '0 1em',
+                padding: '0.5em 0em',
                 marginBottom: '0.5em',
+                maxHeight: '80%',
               }}
             >
               {note.content}
             </p>
+
             <div style={{ height: '1vh', width: '100%' }}></div>
           </div>
         </div>
