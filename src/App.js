@@ -88,7 +88,7 @@ const App = () => {
           />
         </div>
         <div className="notes-section">
-          <h3>Notes</h3>
+          <h2>Notes</h2>
           <div className="notes-collection">
             {filteredNotes.length ? (
               <>

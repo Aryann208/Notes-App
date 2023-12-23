@@ -43,7 +43,7 @@ const NoteForm = ({
           padding: '0.5em',
           borderRadius: '1em',
           margin: '0 auto',
-          minHeight: '40vh',
+          minHeight: '30vh',
           overflow: 'auto',
         }}
         placeholder="Content"

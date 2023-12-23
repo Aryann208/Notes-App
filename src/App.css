@@ -50,8 +50,16 @@
 /* Media Query for Mobile Screens */
 @media (max-width: 767px) {
 
+  .header{
+    height: 10vh;
+    margin-bottom: 2em;
+  }
+
   .app-container {
-    height: auto;}
+    height: auto;
+  width: 90%;
+  margin: 0 auto;
+    padding: 1em;  }
   .main-container {
     height: auto;
     flex-direction: column;
@@ -60,6 +68,7 @@
   .notes-section {
     width: 100%;
   }
+  
 
   .notes-creation {
     width: 100%;
