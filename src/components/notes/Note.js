@@ -129,7 +129,7 @@ const Note = ({ note, onEdit, onDelete }) => {
             <p
               style={{
                 wordWrap: 'break-word',
-                overflowY: 'scroll',
+                overflowY: 'auto',
                 maxHeight: '65%',
                 padding: '0 1em',
                 marginBottom: '0.5em',

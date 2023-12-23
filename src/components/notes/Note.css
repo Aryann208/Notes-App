@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 0.5em;
   width: 90%;
+  min-height: 35vh;
   max-height: 50%;
   word-wrap: break-word;
   overflow: hidden;
