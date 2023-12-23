@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
@@ -9,15 +10,16 @@
   width: 100%;
   margin-bottom: 4em;
 }
+
 .app-container {
   height: 100vh;
   overflow: hidden;
   width: 100vw;
   padding: 3em;
 }
+
 .main-container {
   height: 100%;
-
   display: flex;
   justify-content: space-between;
 }
@@ -25,7 +27,6 @@
 .notes-section {
   width: 50%;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -43,6 +44,24 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-
   align-items: center;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 767px) {
+
+  .app-container {
+    height: auto;}
+  .main-container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .notes-section {
+    width: 100%;
+  }
+
+  .notes-creation {
+    width: 100%;
+  }
 }

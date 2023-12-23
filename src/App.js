@@ -90,14 +90,20 @@ const App = () => {
         <div className="notes-section">
           <h3>Notes</h3>
           <div className="notes-collection">
-            {filteredNotes.map((note, index) => (
-              <Note
-                key={index}
-                note={note}
-                onEdit={(updatedNote) => editNote(index, updatedNote)}
-                onDelete={() => deleteNote(index)}
-              />
-            ))}
+            {filteredNotes.length ? (
+              <>
+                {filteredNotes.map((note, index) => (
+                  <Note
+                    key={index}
+                    note={note}
+                    onEdit={(updatedNote) => editNote(index, updatedNote)}
+                    onDelete={() => deleteNote(index)}
+                  />
+                ))}
+              </>
+            ) : (
+              <h3>No notes to view</h3>
+            )}
           </div>
         </div>
       </div>
